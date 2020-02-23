@@ -145,3 +145,8 @@ footer{
 footer a{
     margin: 10px;
 }
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+}
