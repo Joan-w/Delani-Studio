@@ -41,4 +41,10 @@ $(document).ready(function() {
     $(".img4").mouseleave(function() {
         $(".text4").hide(750);
     });
+    $(".img5").mouseenter(function() {
+        $(".text5").show(1000);
+    });
+    $(".img5").mouseleave(function() {
+        $(".text5").hide(750);
+    });
 });    
