@@ -25,11 +25,11 @@ body{
 .welcome-txt h1{
     font-size: 80px;
 }
-/* #work{
+#work{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#work h3{
+/* #work h3{
     font-size: 45px;
     font-weight: 600;
     font-family: fantasy;
