@@ -7,8 +7,8 @@ $(document).ready(function() {
         $("#dev-show").toggle("slow");
         $("#dev-hide").toggle(1000);
     });
-    // $("#prod").click(function() {
-    //     $("#prod-show").toggle("slow");
-    //     $("#prod-hide").toggle(1000);
-    // });
+    $("#prod").click(function() {
+        $("#prod-show").toggle("slow");
+        $("#prod-hide").toggle(1000);
+    });
 });    
