@@ -72,13 +72,13 @@ body{
 .portfolio img{
     width: 250px;
 }
-/* .contact{
+.contact{
     background-image: url("../Images/c_image.jpg");
     background-size: cover;
     padding-top:10px;
     height: 500px;
 }
-.contact .input{
+/* .contact .input{
     margin: 10px;
     margin-top: 25px;
     width: 300px;
