@@ -72,8 +72,15 @@ body{
 .portfolio img{
     width: 250px;
 }
-.text{
+.text0{
+    position: absolute;
     display: none;
+    margin: -150px 100px;
+    padding: 5px;
+    background-color: crimson;
+    float: right;
+    color: white;
+    width: fit-content;
 }
 .contact{
     background-image: url("../Images/c_image.jpg");
