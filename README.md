@@ -3,7 +3,7 @@ By: Joan Wamuyu Kinyua
 ![Delani Studio](../Images/Readme.png)
 
 # Live link
-For a quick navigation to my Delani Studio web application, follow through this link: 
+For a quick navigation to my Delani Studio web application, follow through this link: https://joan-w.github.io/Delani-Studio/
 
 # DESCRIPTION 
 
