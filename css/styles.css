@@ -16,7 +16,7 @@ body{
     background-attachment: fixed;
 }
 .home img{
-    margin-top: 10%;
+    margin-top: 7%;
 }
 .welcome-txt{
     color: white;
@@ -24,6 +24,15 @@ body{
 }
 .welcome-txt h1{
     font-size: 80px;
+}
+#mouse{
+    position: relative;
+    animation: mymouse 0.4s;
+    animation-iteration-count: infinite;
+}
+@keyframes mymouse{
+    from{top: 0px;}
+    to {top: 70px;}
 }
 #work{
     font-size: 20px;
@@ -123,4 +132,13 @@ body{
 .btn:hover{
     background-color: rgb(83, 83, 204);
     color: white;
+}
+#footer1{
+    position: relative;
+    animation: myfooter1 0.5s;
+    animation-iteration-count: 2;
+}
+@keyframes myfooter1{
+    from{top: 0px;}
+    to {top: 50px;}
 }
