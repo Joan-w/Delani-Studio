@@ -53,4 +53,10 @@ $(document).ready(function() {
     $(".img6").mouseleave(function() {
         $(".text6").hide(750);
     });
+    $(".img7").mouseenter(function() {
+        $(".text7").show(1000);
+    });
+    $(".img7").mouseleave(function() {
+        $(".text7").hide(750);
+    });
 });    
