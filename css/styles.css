@@ -34,7 +34,7 @@ body{
     font-weight: 600;
     font-family: fantasy;
 }
-/* #design-show{
+#design-show{
     display: none;
 }
 #dev-show{
@@ -43,7 +43,7 @@ body{
 #prod-show{
     display: none;
 }
-.services{
+/* .services{
     background-image: url("../Images/s_image.jpg");
     background-size: cover;
     color: white;
