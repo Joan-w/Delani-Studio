@@ -88,10 +88,10 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: transparent;
 }
-/* .contact .input::placeholder{
+.contact .input::placeholder{
     color:white;
 }
-.contact .input-txt{
+/* .contact .input-txt{
     width:700px;
     height: 300px;
     padding: 5px;
