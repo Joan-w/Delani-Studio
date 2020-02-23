@@ -69,10 +69,10 @@ body{
     margin: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/* .portfolio img{
+.portfolio img{
     width: 250px;
 }
-.contact{
+/* .contact{
     background-image: url("../Images/c_image.jpg");
     background-size: cover;
     padding-top:10px;
