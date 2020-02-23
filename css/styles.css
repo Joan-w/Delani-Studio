@@ -65,11 +65,11 @@ body{
     font-size: 30px;
     font-weight: 600;
 }
-/* #toggle{
+#toggle{
     margin: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.portfolio img{
+/* .portfolio img{
     width: 250px;
 }
 .contact{
