@@ -43,7 +43,7 @@ body{
 #prod-show{
     display: none;
 }
-/* .services{
+.services{
     background-image: url("../Images/s_image.jpg");
     background-size: cover;
     color: white;
@@ -53,7 +53,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 100px;
 }
-.services h3{
+/* .services h3{
     font-size: 30px;
     font-weight: 600;
     font-family: fantasy;
