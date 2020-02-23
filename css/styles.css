@@ -78,7 +78,7 @@ body{
     padding-top:10px;
     height: 500px;
 }
-/* .contact .input{
+.contact .input{
     margin: 10px;
     margin-top: 25px;
     width: 300px;
@@ -88,7 +88,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: transparent;
 }
-.contact .input::placeholder{
+/* .contact .input::placeholder{
     color:white;
 }
 .contact .input-txt{
