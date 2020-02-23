@@ -7,10 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
     <title>Delani Studio</title>
 </head>
 <body>
-    <div class="home">
+    <!-- <div class="home">
         <img src="./Images/logo.png" alt="logo">
         <br>
         <div class="welcome-txt">
@@ -45,32 +50,45 @@
             <div class="col-md-12 ">
                 <h3>WHAT WE DO</h3>
             </div>
-            <div id="togle" class="togle">
+            <br>      
+            <div id="toggle">
                 <div class="row">
                     <div class="col-md-4">
                         <div id="design">
-                            <img src="./Images/design_icon.png">
-                            <p> Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-                            Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
-                            </p>
+                            <div id="design-hide">
+                                <img src="./Images/design_icon.png">
+                            </div>
+                            <div id="design-show">
+                                <p> Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                                Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div id="dev">
-                            <img src="./Images/dev_icon.png">
-                            <p>
-                            All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                            They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
-                            </p>
+                            <div id="dev-hide">
+                                <img src="./Images/dev_icon.png">
+                            </div>
+                            <div id="dev-show">
+                                <p>
+                                    All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                                    They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+                                    </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div id="prod">
-                            <img src="./Images/product_icon.png">
-                            <p>
-                            Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. -->
-                            This iterative process allows for changes as business requirements evolve.
-                            </p>
+                            <div id="prod-hide">
+                                <img src="./Images/product_icon.png">
+                            </div>
+                            <div id="prod-show">
+                                <p>
+                                    Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
+                                    This iterative process allows for changes as business requirements evolve.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -83,38 +101,38 @@
             <div class="row">
                 <div class="col-md-3">
                     <img src="./Images/work1.jpg" class="img-fluid">
-                    <p class="text-p" style="display:none">Nation Project</p>
+                    <p class="text-p">Nation Project</p>
                 </div>
                 <div class="col-md-3">
                     <img src="./Images/work2.jpg" class="img-fluid">
-                    <p class="text-p" style="display:none">Orange Project</p>
+                    <p class="text-p">Orange Project</p>
                 </div>
                 <div class="col-md-3">
                     <img src="./Images/work3.jpg" class="img-fluid">
-                    <p class="text-p" style="display:none">Mighty Ontario Project</p>
+                    <p class="text-p">Mighty Ontario Project</p>
                 </div>
                 <div class="col-md-3">
                     <img src="./Images/work4.jpg" class="img-fluid">
-                    <p class="text-p" style="display:none">Black Project</p>
+                    <p class="text-p">Black Project</p>
                 </div>
             </div>
             <br>
             <div class="row">
                 <div class="col-md-3">
                     <img src="./Images/work5.jpg" class="img-fluid">
-                    <p class="text-p" style="display:none">Elexa Project</p>
+                    <p class="text-p">Elexa Project</p>
                 </div>
                 <div class="col-md-3">
                     <img src="./Images/work6.jpg" class="img-fluid">
-                    <p class="text-p" style="display:none">Scroll Project</p>
+                    <p class="text-p">Scroll Project</p>
                 </div>
                 <div class="col-md-3">
                     <img src="./Images/work7.jpg" class="img-fluid">
-                    <p class="text-p" style="display:none">Burned Project</p>
+                    <p class="text-p">Burned Project</p>
                 </div>
                 <div class="col-md-3">
                     <img src="./Images/work8.jpg" class="img-fluid">
-                    <p class="text-p" style="display:none">Giraffe Restuarant Project</p>
+                    <p class="text-p">Giraffe Restuarant Project</p>
                 </div>
             </div>
         </div>
@@ -144,9 +162,6 @@
         <a href=""><img src="./Images/you_tube.png"></a>
         <br>
         <p>delani studios<br>2020</p>
-    </footer>
-    <!-- <script src="https://code.jquery.com/jquery-migrate-3.1.0.js" integrity="sha256-oA/lsZCgEPkbv/byAkeXSTEZTsGOPZCrtbyFBHmcGKM="crossorigin="anonymous"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-    <script src="/js/script.js"></script>
+    </footer> -->
 </body>
 </html>
