@@ -15,6 +15,7 @@ This is a website aimed at making use of my acquired skills so far at Moringa.
 - CSS
 - Bootstrap
 - JAVASCRIPT
+- JQUERY
 - MARKDOWN
 
 # BDD
