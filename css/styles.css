@@ -72,7 +72,7 @@ body{
 .portfolio img{
     width: 250px;
 }
-.text0{
+.text0, .text1, .text2, .text3, .text4, .text5, .text6, .text7{
     position: absolute;
     display: none;
     margin: -150px 100px;
