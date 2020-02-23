@@ -133,12 +133,15 @@ body{
     background-color: rgb(83, 83, 204);
     color: white;
 }
-#footer1{
+footer{
     position: relative;
-    animation: myfooter1 0.5s;
-    animation-iteration-count: 2;
+    animation: myfooter 5s;
+    animation-iteration-count: 1;
 }
-@keyframes myfooter1{
-    from{top: 0px;}
-    to {top: 50px;}
+@keyframes myfooter{
+    from{top: 70px;}
+    to {top: 0px;}
+}
+footer a{
+    margin: 10px;
 }
