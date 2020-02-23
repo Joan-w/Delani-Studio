@@ -53,12 +53,12 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 100px;
 }
-/* .services h3{
+.services h3{
     font-size: 30px;
     font-weight: 600;
     font-family: fantasy;
 }
-.done{
+/* .done{
     height: 250px;
 }
 .done h3{
