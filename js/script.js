@@ -17,4 +17,10 @@ $(document).ready(function() {
     $(".img0").mouseleave(function() {
         $(".text0").hide(750);
     });
+    $(".img1").mouseenter(function() {
+        $(".text1").show(1000);
+    });
+    $(".img1").mouseleave(function() {
+        $(".text1").hide(750);
+    });
 });    
