@@ -60,3 +60,15 @@ $(document).ready(function() {
         $(".text7").hide(750);
     });
 });    
+
+function submit() {
+    var yourName = document.getElementById("your-name").value;
+    var yourEmail = document.getElementById("your-email").value;
+    var yourMessage = document.getElementById("your-msg").value;
+
+    if (yourName === "" || yourEmail === "" || yourMessage === "") {
+        alert("Fill your form correctly please.");
+    } else {
+        alert("Your message has been well received. We will get back to you in a short while. Thank you!");
+    }
+};
