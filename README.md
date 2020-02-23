@@ -4,7 +4,7 @@ By: Joan Wamuyu Kinyua
 
 # Live link
 For a quick navigation to my Delani Studio web application, follow through this link: 
-
+https://joan-w.github.io/Delani-Studio/
 # DESCRIPTION 
 
 This is a website aimed at making use of my acquired skills so far at Moringa.
