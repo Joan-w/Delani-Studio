@@ -100,10 +100,10 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: transparent;
 }
-/* .contact .input-txt::placeholder{
+.contact .input-txt::placeholder{
     color:white;
 }
-.btn{
+/* .btn{
     background-color: white;
     font-weight: 700;
 }
