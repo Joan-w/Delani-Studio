@@ -35,4 +35,10 @@ $(document).ready(function() {
     $(".img3").mouseleave(function() {
         $(".text3").hide(750);
     });
+    $(".img4").mouseenter(function() {
+        $(".text4").show(1000);
+    });
+    $(".img4").mouseleave(function() {
+        $(".text4").hide(750);
+    });
 });    
