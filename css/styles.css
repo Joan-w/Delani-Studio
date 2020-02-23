@@ -97,12 +97,18 @@ body{
 .contact{
     background-image: url("../Images/c_image.jpg");
     background-size: cover;
-    padding-top:10px;
+    padding-top:5px;
     height: 500px;
 }
+.contact p{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
 .contact .input{
-    margin: 10px;
-    margin-top: 25px;
+    margin: 5px;
+    margin-top: 10px;
     width: 300px;
     padding: 5px;
     color:black;
@@ -115,7 +121,7 @@ body{
 }
 .contact .input-txt{
     width:700px;
-    height: 300px;
+    height: 250px;
     padding: 5px;
     color:white;
     font-size: 20px;
