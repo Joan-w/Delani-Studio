@@ -27,8 +27,8 @@ body{
 }
 #mouse{
     position: relative;
-    animation: mymouse 0.4s;
-    animation-iteration-count: infinite;
+    animation: mymouse 0.8s;
+    animation-iteration-count: 2;
 }
 @keyframes mymouse{
     from{top: 0px;}
