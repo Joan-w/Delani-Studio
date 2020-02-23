@@ -59,7 +59,7 @@ $(document).ready(function() {
     $(".img7").mouseleave(function() {
         $(".text7").hide(750);
     });
-});    
+});   
 
 function submit() {
     var yourName = document.getElementById("your-name").value;
