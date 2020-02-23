@@ -103,11 +103,11 @@ body{
 .contact .input-txt::placeholder{
     color:white;
 }
-/* .btn{
+.btn{
     background-color: white;
     font-weight: 700;
 }
-.btn:hover{
+/* .btn:hover{
     background-color: rgb(83, 83, 204);
     color: white;
 } */
