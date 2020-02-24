@@ -23,19 +23,25 @@ body{
     font-family: 'Odibee Sans', cursive;
 }
 .welcome-txt h1{
-    font-size: 80px;
+    font-size: 100px;
+}
+.welcome-txt h4{
+    font-size: 40px;
 }
 #mouse{
     position: relative;
-    animation: mymouse 0.8s;
-    animation-iteration-count: 2;
+    animation: mymouse 0.5s;
+    animation-iteration-count: infinite;
 }
 @keyframes mymouse{
     from{top: 0px;}
-    to {top: 70px;}
+    to {top: 10px;}
 }
 #work{
-    font-size: 20px;
+    box-sizing: content-box;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
 #work h3{
@@ -86,11 +92,11 @@ body{
     display: none;
     margin: -150px 100px;
     padding: 2px;
-    background-color: rgb(87, 79, 79);
+    background-color: white;
     float: right;
-    color: white;
+    color: black;
     width: 100px;
-    border: 2px solid white;
+    border: 2px solid black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
 }
@@ -106,7 +112,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
-.contact .input{
+form .input{
     margin: 5px;
     margin-top: 10px;
     width: 300px;
@@ -116,10 +122,10 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: transparent;
 }
-.contact .input::placeholder{
+form .input::placeholder{
     color:white;
 }
-.contact .input-txt{
+form .input-txt{
     width:700px;
     height: 250px;
     padding: 5px;
@@ -128,7 +134,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: transparent;
 }
-.contact .input-txt::placeholder{
+form .input-txt::placeholder{
     color:white;
 }
 .btn{
@@ -142,7 +148,7 @@ body{
 footer{
     position: relative;
     animation: myfooter 5s;
-    animation-iteration-count: 1;
+    animation-iteration-count:infinite;
 }
 @keyframes myfooter{
     from{top: 70px;}

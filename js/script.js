@@ -12,7 +12,7 @@ $(document).ready(function() {
         $("#prod-hide").toggle(1000);
     });
     $(".img0").mouseenter(function() {
-        $(".text0").show(1000);
+        $(".text0").show(1000);6
     });
     $(".img0").mouseleave(function() {
         $(".text0").hide(750);
