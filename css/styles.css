@@ -51,12 +51,15 @@ body{
 }
 #design-show{
     display: none;
+    cursor: pointer;
 }
 #dev-show{
     display: none;
+    cursor: pointer;
 }
 #prod-show{
     display: none;
+    cursor: pointer;
 }
 .services{
     background-image: url("../Images/s_image.jpg");
